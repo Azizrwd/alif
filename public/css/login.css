@@ -1,0 +1,39 @@
+body {
+    background-color: #2bc940;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+    align-content: center;
+}
+
+.login_card {
+    margin-top: 150px;
+}
+
+.login {
+    background-color: #fff;
+    padding: 25px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+
+}
+
+.login .btn-success {
+    background-color:  #2bc940 !important;
+    margin-top: 10px;
+}
+
+.login input {
+    background-color: #d5d5d4;
+}
+
+.login input:focus {
+    background-color: #dcdcdb;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+}

@@ -15,6 +15,8 @@ Route::get('/', function (){
     return redirect('/students');
 });
 
+/* Students */
+
 Route::get('/students', 'StudentController@index');
 
 Route::get('/students/create', 'StudentController@create');
@@ -39,6 +41,7 @@ Route::post('courses/students/{student}', 'StudentController@addCourse');
 Route::resource('courses', 'CourseController');
 
 Route::post('/courses/{course}/addstudent', 'CourseController@addStudent');
+
 Route::delete('/courses/{course}/removestudent', 'CourseController@removeStudent');
 
 /* Auth */
